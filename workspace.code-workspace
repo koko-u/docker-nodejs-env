@@ -33,7 +33,8 @@
       "rbbit.typescript-hero",
       "steoates.autoimport",
       "streetsidesoftware.code-spell-checker",
-      "Vue.volar"
+      "Vue.volar",
+      "Zignd.html-css-class-completion"
     ]
   }
 }
