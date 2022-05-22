@@ -9,6 +9,6 @@ RUN yarn global add @angular/cli
 WORKDIR /usr/workspace
 
 # vscode extensions
-COPY workspace.code-workspace .
+COPY workspace.code-workspace /root
 
 CMD [ "/bin/bash" ]
