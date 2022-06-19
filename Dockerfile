@@ -1,10 +1,13 @@
-FROM node:16.15.0-bullseye
+FROM node:16.15.1-bullseye
 
-# @vue/cli
-RUN yarn global add @vue/cli
+# @vue/cli -> use vite
+# RUN yarn global add @vue/cli
 
 # @angular/cli
 RUN yarn global add @angular/cli
+
+# nx cli
+RUN yarn global add nx
 
 WORKDIR /usr/workspace
 
