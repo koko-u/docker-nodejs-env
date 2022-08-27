@@ -1,4 +1,4 @@
-FROM node:16.15.1-bullseye
+FROM node:16.17.0-bullseye
 
 # @vue/cli -> use vite
 # RUN yarn global add @vue/cli
